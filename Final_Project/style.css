@@ -1,0 +1,274 @@
+@font-face {
+    font-family: noto;
+    src: url("./font/NotoSansCJKkr-Regular.otf");
+}
+
+@font-face {
+    font-family: noto_bold;
+    src: url("./font/NotoSansCJKkr-Bold.otf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: noto;
+}
+
+.container{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*main*/
+.container .main_color {
+    background-color: #ffd93f;
+}
+.container .main{
+    width: 1280px;
+    height: 720px;
+    background-image: url("./img/main_1.png");
+    background-position: 150px 0;
+    margin: 0 auto;
+}
+
+.main img{
+    margin: 30px 0;
+}
+
+.main .text{
+    color: white;
+    position: absolute;
+    position: relative;
+    top: 120px;
+    left: 0;
+    font-family: noto;
+}
+
+.main .text h2{
+    font-size: 36px;
+    text-shadow: 1px 1px 5px #1e1e1e;
+    margin-bottom: -25px;
+}
+
+.main .text h1{
+    font-size: 110px;
+    text-shadow: 1px -2px 5px #1e1e1e;
+}
+.main .text a {
+    text-decoration: none;
+    color: white;
+    
+}
+.main .text p{
+    width: 180px;
+    font-size: 20px;
+    border: 5px solid white;
+    border-radius: 35px;
+    padding: 5px 5px;
+    text-align: center;
+    background-color: #8cc0cd;
+    box-shadow: 1px 1px 2px #333;
+    /* text-shadow: 1px 1px 5px #1e1e1e; */
+}
+
+/*textdeco1*/
+.container .textdeco1{
+    text-align: center;
+}
+.container .textdeco1 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container .textdeco1 h1{
+    font-family: noto_bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container .textdeco1 h2{
+    line-height: 32px;
+    font-size: 20px;
+}
+
+
+
+/*textdeco2*/
+.container .textdeco2{
+    color: white;
+}
+
+.container .textdeco2 p{
+    font-size: 30px;
+}
+
+.container .textdeco2 h1{
+    font-size: 50px;
+    font-family: noto_bold;
+}
+
+.container .textdeco2 h2{
+    font-size: 22px;
+}
+/*quality*/
+
+.quality_color{
+    width: 100%;
+    height: 800px;
+    /* background-color: white; */
+    
+}
+
+.quality_color .photoquality {
+    width: 1280px;
+    height: 800px;
+    background-image: url("./img/photoQ.jpg");
+    background-position: 0 250px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/*self*/
+
+.self_color{
+    width: 100%;
+    height: 800px;  
+    background-image: url("./img/self_1.jpg");
+    background-attachment: fixed;
+}
+
+.self_color .self {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.self .selfcont {
+    position: relative;
+    top: 250px;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.self .selfcont p{
+    margin-bottom: 30px;
+}
+
+.self .selfcont h1{
+    margin-bottom: 15px;
+}
+
+/*camera*/
+
+.camera_color{
+    width: 100%;
+    height: 800px;
+    background-color: #f9df71;
+    
+}
+
+.camera_color .camera {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url("img/camera_1.jpg");
+}
+
+.camera_color .camera .camera_cont{
+    position: relative;
+    top: 80px;
+}
+
+.camera .camera_cont #nightglow {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+/*mini*/
+
+.mini_color{
+    width: 100%;
+    height: 800px;
+    background-image: url("img/mini.jpg");
+    background-attachment: fixed;
+    
+}
+
+.mini_color .mini {
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.mini_color .mini .mini_cont{
+    position: relative;
+    top: 250px;
+}
+
+/*selection*/
+
+.selection {
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+.selection .selection_bg{
+    width: 1280px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.selection .selection_bg .selection_cont{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.selection_bg .selection_cont h1{
+    font-size: 50px;
+    font-family: noto_bold;
+}
+.selection_bg .selection_cont a{
+    text-decoration: none;
+    color: #000;
+}
+
+.selection_bg .selection_cont p{
+    width: 160px;
+    margin: 0 auto;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 22px;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.selection_bg .selection_cont img{
+    margin-top: 70px;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+footer .footer_cont{
+    color: #333;
+    width: 820px;
+    height: 150px;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+footer .footer_cont span {
+    margin-left: 20px;
+}
